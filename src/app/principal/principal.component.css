@@ -1,0 +1,15 @@
+div#btn {
+    margin: 1%;
+}
+
+div#img {
+    margin: 1%;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
