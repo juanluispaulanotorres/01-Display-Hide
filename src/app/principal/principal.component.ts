@@ -1,4 +1,4 @@
-import { Component, Renderer2, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, Renderer2, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-principal',
@@ -12,7 +12,6 @@ export class PrincipalComponent {
   @ViewChild("imagen") imagen!: ElementRef;
 
   constructor(private renderer: Renderer2) { }
-
 
   toggle() {
     let btn = this.boton.nativeElement;
