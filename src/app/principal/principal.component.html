@@ -1,4 +1,4 @@
-<div id="btn" (click)="toggle()">
-    <button class="btn btn-primary" #boton>Enseñar</button>
-    <img src="assets/imagen.jpg" width="1000px" height="600px" class="hidden" #imagen>
+<div id="btn">
+    <button class="btn btn-primary" (click)="displayHide()">{{ btnText }}</button>
+    <img *ngIf="show" src="assets/imagen.jpg" width="1000px" height="600px">
 </div>
